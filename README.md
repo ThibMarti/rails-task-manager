@@ -1,24 +1,19 @@
-# README
+# Rails Task Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple CRUD application built with Ruby on Rails during Le Wagon.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- List tasks
+- View task details
+- Create tasks
+- Edit tasks
+- Delete tasks
 
-* System dependencies
+## Tech Stack
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby on Rails
+- Active Record
+- SQLite
+- Bootstrap 5
+- Font Awesome
