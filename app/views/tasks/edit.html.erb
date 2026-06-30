@@ -1,0 +1,22 @@
+<h1 class="mb-4">Edit Task</h1>
+
+<%= render "form", task: @task %>
+<%= form_with model: @task, url: "/tasks/#{@task.id}", method: :patch do |f| %>  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div>
+    <%= f.label :details %>
+    <%= f.text_area :details %>
+  </div>
+
+  <div>
+    <%= f.label :completed %>
+    <%= f.check_box :completed %>
+  </div>
+
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>
